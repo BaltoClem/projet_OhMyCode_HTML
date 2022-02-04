@@ -1,3 +1,10 @@
 h1{
+    color: black;/*rgb(0,0,0) ou #000 */
+    font-size: 24px;
+    font-family: arial;
+}
+
+/*Au survol du a*/
+a:hover{
     color: red;
 }
