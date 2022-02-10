@@ -1,7 +1,22 @@
+@font-face {
+    font-family: 'lunaregular';
+    src: url('./fonts/luna-webfont.woff2') format('woff2'),/* Le format "woff" et "woff2" permet de lire la police sur n'importe quel navigateur */
+         url('./fonts/luna-webfont.woff') format('woff'), /* Conversion du format ttf vers woff avec FontSquirrel */
+         url('./fonts/Luna.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1{
     color: black;/*rgb(0,0,0) ou #000 */
     font-size: 24px;
-    font-family: arial;
+    font-family: 'lunaregular';
+}
+
+h2{
+    color: black;
+    font-family: 'Lobster', cursive;
 }
 
 /*Au survol du a*/
