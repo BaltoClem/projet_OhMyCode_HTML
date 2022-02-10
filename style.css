@@ -23,3 +23,11 @@ h2{
 a:hover{
     color: red;
 }
+
+#hero{
+    background-color: red;
+}
+
+#missions{
+    background-color: blue;
+}
