@@ -8,6 +8,19 @@
 
 }
 
+section{
+    background: url(./images/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1%;
+}
+
+nav{
+    background-color: rgba(0,0,0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
 h1{
     color: black;/*rgb(0,0,0) ou #000 */
     font-size: 24px;
@@ -19,15 +32,18 @@ h2{
     font-family: 'Lobster', cursive;
 }
 
-/*Au survol du a*/
-a:hover{
-    color: red;
+a{
+    color: white;
+    padding: 20px;
 }
 
-#hero{
-    background-color: red;
+#bandeau{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    
 }
 
-#missions{
-    background-color: blue;
+#contenu{
+    text-align: center;
 }
