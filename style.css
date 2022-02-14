@@ -8,6 +8,11 @@
 
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 section{
     background: url(./images/fond.jpg);
     background-repeat: no-repeat;
@@ -46,4 +51,5 @@ a{
 
 #contenu{
     text-align: center;
+    padding: 2%;
 }
