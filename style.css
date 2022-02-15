@@ -13,6 +13,11 @@
     margin: 0;
 }
 
+html{
+    font-family: 'arial';
+    font-size: 16px;
+}
+
 section{
     background: url(./images/fond.jpg);
     background-repeat: no-repeat;
@@ -39,6 +44,7 @@ h2{
 
 a{
     color: white;
+    text-decoration: none;
     padding: 20px;
 }
 
@@ -62,4 +68,10 @@ a:hover{
     color: red;
     border : 1px solid red;
     border-radius: 15px;
+    transition: ease 1s;
+}
+
+#contenu a:hover{
+    color : white;
+    background-color: rgba(178,32,19,0.8);
 }
