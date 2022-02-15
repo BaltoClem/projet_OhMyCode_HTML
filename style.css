@@ -42,6 +42,10 @@ a{
     padding: 20px;
 }
 
+a:hover{
+    color: red;
+}
+
 #bandeau{
     margin-top: 10%;
     margin-bottom: 10%;
@@ -52,4 +56,10 @@ a{
 #contenu{
     text-align: center;
     padding: 2%;
+}
+
+#contenu a{
+    color: red;
+    border : 1px solid red;
+    border-radius: 15px;
 }
