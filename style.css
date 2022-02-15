@@ -18,7 +18,7 @@ html{
     font-size: 16px;
 }
 
-section{
+#hero{
     background: url(./images/fond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,3 +75,11 @@ a:hover{
     color : white;
     background-color: rgba(178,32,19,0.8);
 }
+
+#contenu img:hover{
+    transform: rotate(360deg) scale(1.5); /*Si scale <1 alors l'image sera réduit*/
+}
+
+#contenu img{
+    transition : 1s;
+}/*La transition d'un mécanisme se fait toujours à l'élément initial*/
