@@ -83,3 +83,14 @@ a:hover{
 #contenu img{
     transition : 1s;
 }/*La transition d'un mécanisme se fait toujours à l'élément initial*/
+
+#apropos_image{
+    padding: 1%;
+    float: left;
+}
+
+#apropos_texte{
+    padding: 1%;
+    float : right;
+    width : 60%;
+}/*Revoir la responsivité*/
