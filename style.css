@@ -84,7 +84,7 @@ a:hover{
     transition : 1s;
 }/*La transition d'un mécanisme se fait toujours à l'élément initial*/
 
-#apropos, #services{
+#apropos{
     display: flex;
 }
 
@@ -102,4 +102,17 @@ a:hover{
     padding: 20px;
     flex : 2;
     text-align: justify;
+}
+
+#services{
+    display: flex;
+    background-color: #666;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.services_item p{
+    text-align: justify;
+    padding: 20px;
 }
