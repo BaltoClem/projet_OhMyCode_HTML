@@ -95,7 +95,7 @@ a:hover{
 
 #apropos_image img{
     flex : 1;
-    max-width: 100%; /* L'image prendra au maximum la largeur de son contenant, soit 100% du du tiers de page */
+    max-width: 100%; /* L'image prendra au maximum la largeur de son contenant, soit 100% du tiers de page */
 }
 
 #apropos_texte{
@@ -115,4 +115,17 @@ a:hover{
 .services_item p{
     text-align: justify;
     padding: 20px;
+}
+
+@media screen and (max-width: 414px){
+    #apropos{
+        flex-direction: column;
+    }
+    #services{
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
+        padding : 10px
+    }
 }
