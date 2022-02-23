@@ -84,11 +84,22 @@ a:hover{
     transition : 1s;
 }/*La transition d'un mécanisme se fait toujours à l'élément initial*/
 
-#apropos{
+#apropos, #services{
     display: flex;
-    align-items: center;
 }
 
-#apropos_image, #apropos_texte{
-    margin: 1%;
+#apropos_image{
+    padding: 20px;
+    flex: 1;
+}
+
+#apropos_image img{
+    flex : 1;
+    max-width: 100%; /* L'image prendra au maximum la largeur de son contenant, soit 100% du du tiers de page */
+}
+
+#apropos_texte{
+    padding: 20px;
+    flex : 2;
+    text-align: justify;
 }
